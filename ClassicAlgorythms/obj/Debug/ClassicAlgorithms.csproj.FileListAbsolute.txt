@@ -1,0 +1,13 @@
+d:\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+d:\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+d:\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+d:\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ClassicAlgorithms.csproj.CoreCompileInputs.cache
+d:\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+d:\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\bin\Debug\ClassicAlgorithms.exe.config
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\bin\Debug\ClassicAlgorithms.exe
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\bin\Debug\ClassicAlgorithms.pdb
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\obj\Debug\ClassicAlgorithms.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\obj\Debug\ClassicAlgorithms.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\obj\Debug\ClassicAlgorithms.exe
+D:\Documents\Visual Studio 2017\Projects\ClassicAlgorythms\ClassicAlgorythms\obj\Debug\ClassicAlgorithms.pdb

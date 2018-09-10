@@ -1,0 +1,6 @@
+/Users/sebastianbularca/__TocaBocaReps/ClassicAlgorythms/ClassicAlgorythms/bin/Release/ClassicAlgorithms.exe.config
+/Users/sebastianbularca/__TocaBocaReps/ClassicAlgorythms/ClassicAlgorythms/bin/Release/ClassicAlgorithms.exe
+/Users/sebastianbularca/__TocaBocaReps/ClassicAlgorythms/ClassicAlgorythms/bin/Release/ClassicAlgorithms.pdb
+/Users/sebastianbularca/__TocaBocaReps/ClassicAlgorythms/ClassicAlgorythms/obj/Release/ClassicAlgorithms.csproj.CoreCompileInputs.cache
+/Users/sebastianbularca/__TocaBocaReps/ClassicAlgorythms/ClassicAlgorythms/obj/Release/ClassicAlgorithms.exe
+/Users/sebastianbularca/__TocaBocaReps/ClassicAlgorythms/ClassicAlgorythms/obj/Release/ClassicAlgorithms.pdb

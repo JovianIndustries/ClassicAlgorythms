@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="Custom">
+  <MonoDevelop.Ide.ItemProperties.ClassicAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BinarySieve.cs">
+    <Files>
+      <File FileName="Algorythms.cs" Line="8" Column="5" />
+      <File FileName="BinarySieve.cs" Line="1" Column="1" />
+      <File FileName="EightQueenProblem.cs" Line="2" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Custom" Name="Custom">
+      <Items>
+        <StartupItem ItemId="{7A195BAD-A54D-4193-90A0-80F8E2AB49E8}" ItemName="ClassicAlgorithms" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

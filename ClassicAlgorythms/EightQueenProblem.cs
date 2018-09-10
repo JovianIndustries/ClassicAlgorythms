@@ -49,10 +49,11 @@ namespace ClassicAlgorithms
             for (int i = 0; i < n; i++)
             {
                 if (!SolutionFinder(i))
-                    return;
+                {
+
+                }
             }
-
-
+            
             Console.WriteLine();
             for (int i = 0; i < n; i++)
             {
@@ -73,18 +74,19 @@ namespace ClassicAlgorithms
                 if (board[col, i] == 1) return false;
             }
 
-            for (int i = row, j = col; i >=0 && j >= 0; i--, j--)
+            for (int i = row, j = col; i < n && j < n; i++, j++)
             {
                 if (board[i, j] == 1) return false;
             }
 
-            for (int i = row, j = n; i >= 0 && j < n; i--, j++)
+            for (int i = row, j = col; i >= 0 && j >= 0; i--, j--)
             {
                 if (board[i, j] == 1) return false;
             }
 
             return true;
         }
+
         private bool SolutionFinder(int row)
         {
             if (row >= n) return true;
@@ -94,7 +96,7 @@ namespace ClassicAlgorithms
                     if (CheckPlacement(row, i))
                     {
                         board[row, i] = 1;
-                        if (SolutionFinder(row + 1))  return true;
+                        if (SolutionFinder(i + 1))  return true;
                     }
             }
             return false;

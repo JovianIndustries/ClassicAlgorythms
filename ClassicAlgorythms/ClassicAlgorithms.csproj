@@ -56,6 +56,8 @@
     <Compile Include="Algorythms.cs" />
     <Compile Include="BinarySieve.cs" />
     <Compile Include="EightQueenProblem.cs" />
+    <Compile Include="BuySellGold.cs" />
+    <Compile Include="Properties\WinCards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

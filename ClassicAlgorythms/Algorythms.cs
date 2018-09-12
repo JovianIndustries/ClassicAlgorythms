@@ -19,12 +19,11 @@ namespace Algoritmica
                 case '2':
                     EightQueenProblem.Backtracking();
                     break;
+                case '3':
+                    BuySellGold.Initialize();
+                    break;
             }
 
         }
-        #region BinaryAndSieve
-
-#endregion
-
     }
 }

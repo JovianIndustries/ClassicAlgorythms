@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 public class Solution
-//{
+{
 //    private int currentRound;
 //    private int currentMoney;
 //    private int currentBid;

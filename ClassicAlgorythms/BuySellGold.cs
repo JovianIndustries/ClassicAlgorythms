@@ -11,13 +11,15 @@ namespace ClassicAlgorithms
         {
             BuySellGold buySellGold = new BuySellGold();
 
-            int[] pricesGroup = new int[10000];
-            Random rnd = new Random();
+            //int[] pricesGroup = new int[10000];
+            //Random rnd = new Random();
 
-            for (int i = 0; i < pricesGroup.Length; i++)
-            {
-                pricesGroup[i] = rnd.Next(rnd.Next(0, 100000), 10000000);
-            }
+            //for (int i = 0; i < pricesGroup.Length; i++)
+            //{
+            //    pricesGroup[i] = rnd.Next(rnd.Next(0, 100000), 10000000);
+            //}
+
+            int[] pricesGroup = new int[] { 200, 187, 167, 133, 121, 100, 70, 55, 23, 1 };
 
             buySellGold.bestDays = buySellGold.FindMaxOrMinDifference(pricesGroup, pricesGroup.Length);
 
@@ -40,6 +42,7 @@ namespace ClassicAlgorithms
             Console.WriteLine("best day to buy is day " + BuyDay());
             Console.WriteLine("best day to sel is day " + SellDay());
             Console.WriteLine("profit made is " + bestDays[2]);
+            Console.ReadLine();
         }
 
         /// <summary>
@@ -71,7 +74,7 @@ namespace ClassicAlgorithms
                 }
             }
 
-            if (maxDif == 0)
+            if (maxDif == int.MinValue)
             {
                 int minDif = int.MaxValue;
                 for (int i = 0; i < n; i++)

@@ -57,6 +57,7 @@
     <Compile Include="BinarySieve.cs" />
     <Compile Include="EightQueenProblem.cs" />
     <Compile Include="BuySellGold.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="WinCards.cs" />
   </ItemGroup>
   <ItemGroup>

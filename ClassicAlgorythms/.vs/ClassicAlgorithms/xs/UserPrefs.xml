@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="Custom">
   <MonoDevelop.Ide.ItemProperties.ClassicAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/WinCards.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmptyClass.cs">
     <Files>
-      <File FileName="EightQueenProblem.cs" Line="11" Column="9" />
-      <File FileName="BuySellGold.cs" Line="4" Column="1" />
-      <File FileName="Algorythms.cs" Line="27" Column="10" />
+      <File FileName="EightQueenProblem.cs" Line="1" Column="1" />
+      <File FileName="BuySellGold.cs" Line="115" Column="14" />
+      <File FileName="Algorythms.cs" Line="19" Column="14" />
       <File FileName="BinarySieve.cs" Line="37" Column="45" />
-      <File FileName="Properties/WinCards.cs" Line="4" Column="5" />
+      <File FileName="WinCards.cs" Line="101" Column="8" />
+      <File FileName="ParallelMatrixMultiplication.cs" Line="5" Column="42" />
+      <File FileName="EmptyClass.cs" Line="4" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

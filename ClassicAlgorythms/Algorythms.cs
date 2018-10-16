@@ -1,12 +1,11 @@
 ﻿using System;
-using ClassicAlgorithms;
-using System.CodeDom;
+using System.Collections.Generic;
 
-namespace Algoritmica
+namespace ClassicAlgorithms
 {
-    class Algorythms
+    public class Algorythms: IMenuController
     {
-        static void Main(string[] args)
+        public void MainMenu(int i)
         {
             Console.WriteLine("Select an option...");
             Console.WriteLine("0 - Generic Test File");
@@ -15,12 +14,12 @@ namespace Algoritmica
             Console.WriteLine("3 - Buy Sell Gold");
             Console.WriteLine("4 - ParallelMatrixComputation");
             ConsoleKeyInfo key = Console.ReadKey();
-            Console.WriteLine();
+            Console.WriteLine(i);
 
             switch (key.KeyChar)
             {
                 case '0':
-                    TestClass.Execute();
+                    SecondaryMenu.Meh();
                     break;
                 case '1':
                     BinarySieve.ExecuteBinaryAndSieve();
@@ -35,6 +34,14 @@ namespace Algoritmica
                     ParallelMatrixMultiplication.ExecuteMultiplyMatrices();
                     break;
             }
+        }
+
+        public static void Main(string[] args)
+        {
+            List<IMenuController> ShitToExecute = new List<IMenuController>() { new SecondaryMenu() as IMenuController, new Algorythms() as IMenuController};
+
+            foreach(var elem in ShitToExecute)
+                elem.MainMenu();
         }
     }
 }

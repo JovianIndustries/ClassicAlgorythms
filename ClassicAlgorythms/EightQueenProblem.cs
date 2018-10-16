@@ -20,6 +20,9 @@ namespace ClassicAlgorithms
             eightQueenProblem.Initialize();
             eightQueenProblem.DisplaySolution();
             Console.ReadLine();
+
+            IMenuController alg = new Algorythms() as IMenuController;
+            alg.MainMenu();
         }
 
         private void Initialize()

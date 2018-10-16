@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMenuController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Algorythms.cs" />
     <Compile Include="BinarySieve.cs" />
@@ -59,7 +60,7 @@
     <Compile Include="BuySellGold.cs" />
     <Compile Include="ParallelMatrixMultiplication.cs" />
     <Compile Include="WinCards.cs" />
-    <Compile Include="TestClass.cs" />
+    <Compile Include="SecondaryMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

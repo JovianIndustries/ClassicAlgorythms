@@ -24,6 +24,9 @@ namespace ClassicAlgorithms
             buySellGold.bestDays = buySellGold.FindMaxOrMinDifference(pricesGroup, pricesGroup.Length);
 
             buySellGold.WriteResults();
+
+            IMenuController alg = new Algorythms() as IMenuController;
+            alg.MainMenu();
         }
 
         int BuyDay()

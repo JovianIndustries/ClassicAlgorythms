@@ -9,6 +9,7 @@ namespace ClassicAlgorithms
         public static void ExecuteBinaryAndSieve()
         {
             BinarySieve sieve = new BinarySieve();
+            IMenuController alg = new Algorythms() as IMenuController;
 
             int maxPrimeSetSize;
 
@@ -16,7 +17,8 @@ namespace ClassicAlgorithms
             {
                 Console.WriteLine("Not a number. Bhye, Bhye!");
                 Console.ReadLine();
-                return;
+
+                alg.MainMenu();
             }
             if (maxPrimeSetSize > 500000)
             {
@@ -30,6 +32,8 @@ namespace ClassicAlgorithms
             string deltaTime = (endTime - startTime).TotalSeconds.ToString();
             Console.WriteLine($"\nExecution time was {deltaTime} seconds");
             Console.ReadLine();
+
+            alg.MainMenu();
         }
 
         //private static void FlushKeyboard()

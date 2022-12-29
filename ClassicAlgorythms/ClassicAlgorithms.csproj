@@ -53,12 +53,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IMenuController.cs" />
+    <Compile Include="Matrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Algorythms.cs" />
     <Compile Include="BinarySieve.cs" />
     <Compile Include="EightQueenProblem.cs" />
     <Compile Include="BuySellGold.cs" />
     <Compile Include="ParallelMatrixMultiplication.cs" />
+    <Compile Include="Sort.cs" />
     <Compile Include="WinCards.cs" />
     <Compile Include="SecondaryMenu.cs" />
   </ItemGroup>

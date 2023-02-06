@@ -8,7 +8,7 @@ namespace ClassicAlgorithms
 {
     public interface IMenuController
     {
-       void MainMenu();
+       void MainMenu(int i);
     }
 
     public interface ISecondaryMenu<T>

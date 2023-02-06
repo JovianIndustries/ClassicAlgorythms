@@ -12,3 +12,11 @@ G:\Documents\ClassicAlgorythms\ClassicAlgorythms\obj\Custom\ClassicAlgorithms.pd
 G:\Documents\ClassicAlgorythms\ClassicAlgorythms\bin\Custom\ClassicAlgorithms.exe.config
 G:\Documents\ClassicAlgorythms\ClassicAlgorythms\bin\Custom\ClassicAlgorithms.exe
 G:\Documents\ClassicAlgorythms\ClassicAlgorythms\bin\Custom\ClassicAlgorithms.pdb
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\bin\Custom\ClassicAlgorithms.exe.config
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\bin\Custom\ClassicAlgorithms.exe
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\bin\Custom\ClassicAlgorithms.pdb
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\obj\Custom\ClassicAlgorithms.csproj.AssemblyReference.cache
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\obj\Custom\ClassicAlgorithms.csproj.SuggestedBindingRedirects.cache
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\obj\Custom\ClassicAlgorithms.csproj.CoreCompileInputs.cache
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\obj\Custom\ClassicAlgorithms.exe
+D:\_repos\ClassicAlgorythms\ClassicAlgorythms\obj\Custom\ClassicAlgorithms.pdb

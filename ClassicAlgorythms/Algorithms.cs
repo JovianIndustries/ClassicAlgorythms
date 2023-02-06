@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ClassicAlgorithms
 {
-    public class Algorythms: IMenuController
+    public class Algorithms: IMenuController
     {
         public void MainMenu(int i)
         {
@@ -38,10 +38,10 @@ namespace ClassicAlgorithms
 
         public static void Main(string[] args)
         {
-            List<IMenuController> ShitToExecute = new List<IMenuController>() { new SecondaryMenu() as IMenuController, new Algorythms() as IMenuController};
+            List<IMenuController> ShitToExecute = new List<IMenuController>() { new SecondaryMenu() as IMenuController, new Algorithms() as IMenuController};
 
             foreach(var elem in ShitToExecute)
-                elem.MainMenu();
+                elem.MainMenu(0);
         }
     }
 }

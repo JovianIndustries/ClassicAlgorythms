@@ -25,8 +25,8 @@ namespace ClassicAlgorithms
 
             buySellGold.WriteResults();
 
-            IMenuController alg = new Algorythms() as IMenuController;
-            alg.MainMenu();
+            IMenuController alg = new Algorithms() as IMenuController;
+            alg.MainMenu(0);
         }
 
         int BuyDay()

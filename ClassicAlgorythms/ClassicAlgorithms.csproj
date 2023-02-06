@@ -52,10 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneticAlgorithm.cs" />
     <Compile Include="IMenuController.cs" />
     <Compile Include="Matrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Algorythms.cs" />
+    <Compile Include="Algorithms.cs" />
     <Compile Include="BinarySieve.cs" />
     <Compile Include="EightQueenProblem.cs" />
     <Compile Include="BuySellGold.cs" />

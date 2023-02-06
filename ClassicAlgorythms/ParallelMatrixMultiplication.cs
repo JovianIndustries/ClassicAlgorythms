@@ -97,8 +97,8 @@ namespace ClassicAlgorithms
             Console.Error.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
-            IMenuController alg = new Algorythms() as IMenuController;
-            alg.MainMenu();
+            IMenuController alg = new Algorithms() as IMenuController;
+            alg.MainMenu(0);
         }
         #endregion
 
